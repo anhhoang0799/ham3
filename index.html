@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Tạo hàm nhận vào hai tham số
+        //Nếu giá trị của tham số thứ nhất lớn hơn tham số thứ hai,
+        //hiển thị hộp thoại thông báo cho người dùng.
+        //Nếu giá trị của tham số thứ nhất nhỏ hơn hoặc bằng tham số thứ hai,
+        //trả về tổng của hai tham số.
+        var tong = 0;
+        function num(a, b) {
+
+            if (a > b) {
+                alert(a + ">" + b);
+            }
+            else if (a < b) {
+                tong = a + b;
+            
+            alert("tong cua 2 so la:" + tong);
+
+
+        }
+        }
+
+
+
+
+
+
+
+
+        var a = parseInt(prompt("nhap vao so a:"));
+        var b = parseInt(prompt("nhap vao so b:"));
+        num(a, b);
+
+
+
+    </script>
+</body>
+
+</html>
